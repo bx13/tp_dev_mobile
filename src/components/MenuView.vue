@@ -91,6 +91,7 @@ export default {
   methods: {
     LogoutGoogle() {
       document.getElementById('signout_button').click();
+      this.isConnected = 'false';
       router.push({ path: '/login' });
     },
     getDataUser() {
