@@ -116,6 +116,8 @@
 			//window.location.href="http://localhost:8072/login";
 		} else {
 			//localStorage.clear();
+			localStorage.removeItem("isSignedIn");
+      			localStorage.removeItem("email");
 		}
 		/*
         if (isSignedIn) {
