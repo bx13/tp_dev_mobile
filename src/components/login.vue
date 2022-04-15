@@ -43,7 +43,7 @@ export default {
   methods: {
     LoginGoogle() {
       document.getElementById('authorize_button').click();
-      setTimeout(function(){ router.push({ path: '/login' }); }, 5000);
+      setTimeout(function(){ router.push({ path: '/favoris' }); }, 5000);
 
       console.log('login');
     },
